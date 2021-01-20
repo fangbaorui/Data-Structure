@@ -395,7 +395,7 @@ void testquickSort1()
 {
 	int arr[] = { 1,2,5,6,4,8,9,3,7,0 };
 	int sz = sizeof(arr) / sizeof(arr[0]);
-	quickSort1(arr, 0, sz-1);
+	quickSort1(arr, 0, sz - 1);
 	printArr(arr, sz);
 }
 
@@ -451,7 +451,7 @@ void test()
 	time_t end = clock();
 	printf("insertSort: %lld\n", end - begin);
 
-    begin = clock();
+	begin = clock();
 	shellSort(copy2, n);
 	end = clock();
 	printf("shellSort: %lld\n", end - begin);
@@ -483,7 +483,7 @@ void test()
 
 	//无序的快排
 	begin = clock();
-	quickSort1(copy8, 0, n-1);
+	quickSort1(copy8, 0, n - 1);
 	end = clock();
 	printf("无序quickSort1: %lld\n", end - begin);
 
@@ -519,23 +519,3 @@ int main()
 	test();
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
