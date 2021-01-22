@@ -1,0 +1,5 @@
+﻿  sort.c
+C:\Users\中国人\Documents\bit91\数据结构\排序\sort\sort\sort.c(790,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\中国人\Documents\bit91\数据结构\排序\sort\sort\sort.c(895,23): warning C4020: “mergeSort”: 实参太多
+C:\Users\中国人\Documents\bit91\数据结构\排序\sort\sort\sort.c(900,26): warning C4020: “mergeSortNor”: 实参太多
+  sort.vcxproj -> C:\Users\中国人\Documents\bit91\数据结构\排序\sort\Debug\sort.exe
